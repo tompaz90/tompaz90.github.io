@@ -44,6 +44,7 @@ body {
     display: flex;
     justify-content: center;
     color: #333;
+    margin-bottom: 12px;
 }
 
 .card {
@@ -59,6 +60,7 @@ body {
     width: 100%;
     height: auto;
     border-radius: 10px;
+    margin-top: 10px;
 }
 
 .card h3 {
@@ -66,7 +68,7 @@ body {
     margin-bottom: 5px;
 }
 
-.btn {
+.buton {
     background-color: orange;
     border-radius: 10px;
     width: 90%;
