@@ -30,41 +30,8 @@ nav a {
     color: white;
 }
 
-/*A toda la página le da una fuente, y colores al background y a la letra*/
 body {
     font-family: Arial, sans-serif;
     background-color: #fff;
     color: #333;
-}
-
-h2 {
-    text-align: center;
-    margin-top: 30px;
-    color: #333;
-}
-
-ol li {
-    margin-bottom: 20px;
-    border-radius: 10px;
-    padding: 20px;
-}
-
-ul li {
-    margin-bottom: 5px;
-}
-
-h3 {
-    color: #4F6571;
-}
-
-#ingredientes {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#cremacatalanaimg {
-    border-radius: 10px;
-    width: 30%;
-    height: auto;
 }
