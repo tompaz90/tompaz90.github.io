@@ -1,0 +1,70 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #263740;
+}
+
+#nombre {
+    display: flex;
+    justify-content: center;
+    color: #E2ECE1;
+    font-size: 25px;
+}
+
+#logo {
+    margin: 13px;
+    padding: 0px 13px 0px 13px;
+    background-color: #0D7943;
+    border-radius: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    margin: 13px;
+    text-decoration: none;
+    color: white;
+}
+
+/*A toda la página le da una fuente, y colores al background y a la letra*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+}
+
+ol li {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: #4F6571;
+}
+
+#ingredientes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#cremacatalanaimg {
+    border-radius: 10px;
+    width: 30%;
+    height: auto;
+}
