@@ -121,6 +121,10 @@ div p {
     margin: 15px 0px 0px 20px;
 }
 
+.pasos {
+    list-style-type: none;
+}
+
 .pasos li{
     margin-bottom: 20px;
     background-color: #fff;
