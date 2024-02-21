@@ -18,10 +18,11 @@
             <a href="#">Sign up</a>
         </nav>
     </header>
-    <section id="recetadeldia">
+    <section id="recetadeldia" class="row">
         <h2>Receta del día</h2>
-        <div id="presentacionreceta" class="col">
+        <div id="presentacionreceta" class="col-sm-3">
             <h3>Ingredientes</h2>
+            <div class="col-sm-4">
             <ul class="ingredientes">
                 <li>500g de chipirones limpios</li>
                 <li>1 cebolla</li>
@@ -32,7 +33,10 @@
                 <li>Sal y pimienta al gusto</li>
                 <li>Perejil fresco picado para decorar</li>
             </ul>
-            <img src="./img/chipirones.jpg" alt="chipirones en su tinta" id="chipironesimg">
+            </div>
+            <div class="col-sm-4">
+                <img src="./img/chipirones.jpg" alt="chipirones en su tinta" id="chipironesimg">
+            </div>
         </div>
         <div>
             <h3 id="pasostitle">Pasos</h2>
@@ -75,5 +79,32 @@
             </div>
         </div>
     </section>
+    <section class="chefdelmes">
+        <div class="nombrechef">
+            <h2>Cocinero del Mes</h2>
+            <h3>José García</h3>
+        </div>
+        <div class="row listaschef">
+            <div class="recetas col-sm-3">
+                <h4>Mejores Recetas</h4>
+                <ul>
+                    <li>Pulpo a la gallega</li>
+                    <li>Tortilla española</li>
+                    <li>Pisto manchego</li>
+                </ul>
+            </div>
+            <div class="info col-sm-3">
+                <h4>Datos Personales</h4>
+                <ul>
+                    <li>Edad: 35 años</li>
+                    <li>País: España</li>
+                    <li>Especialidad: Cocina tradicional</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h3>© Autor: Tomás Paz Pena</h3>
+    </footer>
 </body>
 </html>
