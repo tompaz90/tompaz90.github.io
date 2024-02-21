@@ -84,3 +84,45 @@ div p {
     display: flex;
     justify-content: space-around;
 }
+
+#recetadeldia {
+    padding: 20px;
+}
+
+#recetadeldia h2 {
+    display: flex;
+    justify-content: center;
+    color: #333;
+}
+
+.ingredientes {
+    list-style-type: none;
+}
+
+.ingredientes li {
+    padding: 9px;
+}
+
+#presentacionreceta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#chipironesimg {
+    width: 50%;
+    margin-top: 12px;
+}
+
+#pasostitle {
+    margin: 15px 0px 0px 20px;
+}
+
+.pasos li{
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+

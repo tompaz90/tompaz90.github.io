@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ElSuperBlog</title>
     <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
@@ -18,30 +18,62 @@
             <a href="#">Sign up</a>
         </nav>
     </header>
+    <section id="recetadeldia">
+        <h2>Receta del día</h2>
+        <div id="presentacionreceta" class="col">
+            <h3>Ingredientes</h2>
+            <ul class="ingredientes">
+                <li>500g de chipirones limpios</li>
+                <li>1 cebolla</li>
+                <li>2 dientes de ajo</li>
+                <li>150ml de vino tinto</li>
+                <li>150ml de caldo de pescado</li>
+                <li>2 cucharadas de aceite de oliva</li>
+                <li>Sal y pimienta al gusto</li>
+                <li>Perejil fresco picado para decorar</li>
+            </ul>
+            <img src="./img/chipirones.jpg" alt="chipirones en su tinta" id="chipironesimg">
+        </div>
+        <div>
+            <h3 id="pasostitle">Pasos</h2>
+            <ol class="pasos">
+                <li><h3>Paso 1.</h3>
+                    <p>Lavar los chipirones bajo agua fría y escurrirlos bien.</p></li>
+                <li><h3>Paso 2.</h3>
+                    <p>Picar finamente la cebolla y los dientes de ajo.</p></li>
+                <li><h3>Paso 3.</h3>
+                    <p>En una sartén grande, calentar el aceite de oliva a fuego medio. Agregar la cebolla y el ajo picados y cocinar hasta que estén dorados.</p></li>
+                <li><h3>Paso 4.</h3>
+                    <p>Agregar los chipirones a la sartén y cocinar durante 5 minutos, removiendo ocasionalmente.</p></li>
+                <li><h3>Paso 5.</h3>
+                    <p>Verter el vino tinto y el caldo de pescado sobre los chipirones. Sazonar con sal y pimienta al gusto. Cocinar a fuego lento durante 20-25 minutos.</p></li>
+                <li><h3>Paso 6.</h3>
+                    <p>Una vez que los chipirones estén tiernos y la salsa haya reducido, servir caliente, espolvoreado con perejil fresco picado.</p></li>
+            </ol>
+        </div>    
+    </section>
     <section class="recetasdelasemana">
-        <h2>Recetas Destacadas</h2>
+        <h2>Recetas de la semana</h2>
         <div class="cardsdiv row">
             <div class="card col-sm-3">
-            <img src="./img/cremacatalana.jpg" alt="Crema Catalana">
-            <h3>Crema catalana</h3>
-            <p>Flameada y tradicional</p>
-            <button href="#" class="buton">Ir</button>
+                <img src="./img/cremacatalana.jpg" alt="Crema Catalana">
+                <h3>Crema catalana</h3>
+                <p>Flameada y tradicional</p>
+                <button href="#" class="buton">Ir</button>
+            </div>
+            <div class="card col-sm-3">
+                <img src="./img/marmitako.jpg" alt="Marmitako">
+                <h3>Marmitako</h3>
+                <p>Tierno y jugoso</p>
+                <button href="#" class="buton">Ir</button>
+            </div>
+            <div class="card col-sm-3">
+                <img src="./img/macarrones.jpg" alt="Macarrones con chorizo">
+                <h3>Con chorizo y atun</h3>
+                <p>Pasta al dente</p>
+                <button href="#" class="buton">Ir</button>
+            </div>
         </div>
-        <div class="card col-sm-3">
-            <img src="./img/marmitako.jpg" alt="Marmitako">
-            <h3>Marmitako</h3>
-            <p>Tierno y jugoso</p>
-            <button href="#" class="buton">Ir</button>
-        </div>
-        <div class="card col-sm-3">
-            <img src="./img/macarrones.jpg" alt="Crema Catalana">
-            <h3>Con chorizo y atun</h3>
-            <p>Pasta al dente</p>
-            <button href="#" class="buton">Ir</button>
-        </div>
-        </div>
-        
     </section>
-    
 </body>
 </html>
